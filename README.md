@@ -1,18 +1,22 @@
-## Getting Started
+## Project Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This Java project implements a simple console-based book inventory management system. It allows users to perform the following actions:
 
-## Folder Structure
+    1. New Entry: Register a new book by providing title, author name, ISBN ID, and available amount.
 
-The workspace contains two folders by default, where:
+    2. Display List: View the list of currently available books in the inventory.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    3. Remove Entry: Unregister a book by providing its ISBN ID.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    4. Change Available Amount: Modify the available amount of a book by providing its ISBN ID and the desired change in amount.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Usage:
 
-## Dependency Management
+    Clone the repository.
+    Compile and run the App class.
+    Follow the on-screen instructions to perform actions.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Note:
+
+    Make sure to input valid values for book details.
+    To exit the program, input 0.
