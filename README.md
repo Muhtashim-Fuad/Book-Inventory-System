@@ -12,8 +12,3 @@ Usage:
 1. Clone the repository.
 2. Compile and run the App class.
 3. Follow the on-screen instructions to perform actions.
-
-Note:
-
-Make sure to input valid values for book details.
-To exit the program, input 0.
